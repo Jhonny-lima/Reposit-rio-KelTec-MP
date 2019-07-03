@@ -71,7 +71,7 @@
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]"
-       version="3.5"
+       version="3.6"
        provider-name="Team Ezequiel KelTec">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
