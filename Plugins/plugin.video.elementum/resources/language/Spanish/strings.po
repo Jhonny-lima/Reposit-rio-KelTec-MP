@@ -117,7 +117,7 @@ msgstr "Obtener actualizaciones pre-releases"
 
 msgctxt "#30025"
 msgid "Limit rates after initial buffering only"
-msgstr "Limitar ratios después de buffering inicial"
+msgstr "Limitar velocidad después de buffering inicial"
 
 msgctxt "#30026"
 msgid "Library path"
@@ -489,8 +489,8 @@ msgid "Scraping trackers..."
 msgstr "Raspando trackers..."
 
 msgctxt "#30141"
-msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate"
-msgstr "Por favor apoye el desarrollo de Elementum visitando[CR]https://elementum.surge.sh/donate"
+msgid "Please support Elementum development by visiting https://quasar.surge.sh/donate"
+msgstr "Por favor apoye el desarrollo de Elementum visitando https://quasar.surge.sh/donate"
 
 msgctxt "#30142"
 msgid "Default view for menus in Movies"
@@ -1167,7 +1167,7 @@ msgstr "Actualización de Trakt iniciada"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
-msgstr "No realizar solicitudes antes de la reproducción"
+msgstr "No realizar preguntas antes de la reproducción"
 
 msgctxt "#30360"
 msgid "My Progress"
@@ -1235,7 +1235,7 @@ msgstr "Por tamaño"
 
 msgctxt "#30376"
 msgid "Choose memory size automatically"
-msgstr "Seleccionar automáticamente el tamaño de la memoria"
+msgstr "Seleccionar tamaño de memoria automáticamente"
 
 msgctxt "#30377"
 msgid "Size is chosen automatically, based on[CR]physical amount of memory"
@@ -1415,7 +1415,7 @@ msgstr "Eliminar de ..."
 
 msgctxt "#30421"
 msgid "Load torrents from torrents folder on startup"
-msgstr "Cargar durante inicio los torrents en la carpeta torrents"
+msgstr "Cargar durante inicio los torrents de la carpeta torrents"
 
 msgctxt "#30422"
 msgid "Popular lists"
@@ -1543,7 +1543,7 @@ msgstr "Restablecer todas las rutas"
 
 msgctxt "#30453"
 msgid "Upload /debug/bundle (with kodi.log) to pastebin"
-msgstr "Subir /debug/bundle (con kodi.log) a Pastebin"
+msgstr "Subir /debug/bundle (con kodi.log) a pastebin"
 
 msgctxt "#30454"
 msgid "Paste url:[CR]%s"
@@ -1551,15 +1551,15 @@ msgstr "Pegar url:[CR]%s"
 
 msgctxt "#30455"
 msgid "Logging"
-msgstr "Registro de depuración"
+msgstr ""
 
 msgctxt "#30456"
 msgid "Upload /debug/all (no kodi.log) to pastebin"
-msgstr "Subir /debug/all (sin kodi.log) a Pastebin"
+msgstr "Subir /debug/all (sin kodi.log) a pastebin"
 
 msgctxt "#30457"
 msgid "Uploading file to pastebin"
-msgstr "Subiendo archivo a Pastebin"
+msgstr "Subiendo archivo a pastebin"
 
 msgctxt "#30458"
 msgid "Deleted movies"
@@ -1611,7 +1611,7 @@ msgstr "Limpiar caché Trakt"
 
 msgctxt "#30470"
 msgid "Clear the cache"
-msgstr "Limpiar caché"
+msgstr "Limpiar la caché"
 
 msgctxt "#30471"
 msgid "Are you sure you want to do it?"
@@ -1623,7 +1623,7 @@ msgstr "Base de datos borrada"
 
 msgctxt "#30473"
 msgid "Select network interface"
-msgstr "Seleccionar interfaz de red"
+msgstr "Seleccionar interface de red"
 
 msgctxt "#30474"
 msgid "Network interfaces"
@@ -1643,11 +1643,11 @@ msgstr "Original"
 
 msgctxt "#30478"
 msgid "Searching"
-msgstr "Búsqueda"
+msgstr "Buscando"
 
 msgctxt "#30479"
 msgid "Automatically run Kodi library update after add/delete"
-msgstr "Actualizar biblioteca Kodi automáticamente después de agregar/eliminar"
+msgstr "Actualizar automáticamente biblioteca Kodi después de agregar/eliminar"
 
 msgctxt "#30480"
 msgid "Run Kodi library update after add/delete"
@@ -1675,7 +1675,7 @@ msgstr "Límite de conexiones"
 
 msgctxt "#30486"
 msgid "Automatic concurrent connections limit"
-msgstr "Limitar automáticamente el número de conexiones"
+msgstr "Limitar automáticamente número de conexiones"
 
 msgctxt "#30487"
 msgid "Enable built-in HTTP proxy"
@@ -1698,8 +1698,8 @@ msgid "Use Fanart.tv for posters/images"
 msgstr "Usar Fanart.tv para posters/imágenes"
 
 msgctxt "#30492"
-msgid "Use Proxy for downloading .torrent files"
-msgstr "Usar Proxy para descargar archivos .torrent"
+msgid "Use Proxy for downloading torrent files"
+msgstr "Usar Proxy para descargar archivos torrent"
 
 msgctxt "#30493"
 msgid "Use Proxy for trackers"
@@ -1727,11 +1727,11 @@ msgstr "Restablecer esta ruta a '/'"
 
 msgctxt "#30499"
 msgid "Automatically adjust memory size[CR]for heavy torrents, if possible"
-msgstr "Ajustar automáticamente tamaño de memoria[CR]para torrents pesados"
+msgstr "Ajustar automáticamente tamaño de memoria[CR] para torrents pesados, si es posible"
 
 msgctxt "#30500"
 msgid "Automatically adjust buffer size[CR]for heavy torrents"
-msgstr "Ajustar automáticamente tamaño de buffer[CR]para torrents pesados"
+msgstr "Ajustar automáticamente tamaño de buffer[CR] para torrents pesados"
 
 msgctxt "#30501"
 msgid "Filter files with size less than, MB"
@@ -1739,7 +1739,7 @@ msgstr "Filtrar archivos con un tamaño inferior a, MB"
 
 msgctxt "#30502"
 msgid "Adjust buffer according to Kodi advancedsettings, if set"
-msgstr "Ajustar buffer según advancedsettings de Kodi, si está establecido"
+msgstr "Ajustar buffer según advancedsettings de Kodi, si está ajustado"
 
 msgctxt "#30503"
 msgid "Use libtorrent.config to override torrent engine settings"
@@ -1747,147 +1747,11 @@ msgstr "Usar libtorrent.config para anular la configuración del motor torrent"
 
 msgctxt "#30504"
 msgid "Located at USERDATA/plugin.video.elementum/libtorrent.config file[CR]Settings apply automatically. Visit https://libtorrent.org for info."
-msgstr "Localizado en USERDATA/plugin.video.elementum/libtorrent.config[CR]los ajustes se aplican automáticamente. Visite https://libtorrent.org para obtener información."
+msgstr "Localizado en USERDATA/plugin.video.elementum/libtorrent.config[CR]la configuración se aplica automáticamente. Visite https://libtorrent.org para obtener información."
 
 msgctxt "#30505"
 msgid "Add episode number to the title"
 msgstr "Añadir número de episodio a título"
-
-msgctxt "#30506"
-msgid "Enable libtorrent logging"
-msgstr "Habilitar registro libtorrent"
-
-msgctxt "#30507"
-msgid "Magnet trackers"
-msgstr "Trackers Magnet"
-
-msgctxt "#30508"
-msgid "Leave as is"
-msgstr "Dejar como está"
-
-msgctxt "#30509"
-msgid "Remove all"
-msgstr "Eliminar todo"
-
-msgctxt "#30510"
-msgid "Add retrackers"
-msgstr "Añadir retrackers"
-
-msgctxt "#30511"
-msgid "Libtorrent settings profile"
-msgstr "Perfil de ajuste libtorrent"
-
-msgctxt "#30512"
-msgid "Default"
-msgstr "Por defecto"
-
-msgctxt "#30513"
-msgid "Minimal memory"
-msgstr "Memoria mínima"
-
-msgctxt "#30514"
-msgid "High speed"
-msgstr "Alta velocidad"
-
-msgctxt "#30515"
-msgid "Load torrents from torrents folder paused"
-msgstr "Cargar torrents en pausa desde carpeta torrents"
-
-msgctxt "#30516"
-msgid "... resume N seconds earlier"
-msgstr "Tiempo a retroceder antes de reanudación (segundos)"
-
-msgctxt "#30517"
-msgid "In Kodi library"
-msgstr "En biblioteca Kodi"
-
-msgctxt "#30518"
-msgid "Use libtorrent deadlines"
-msgstr "Usar deadlines libtorrent"
-
-msgctxt "#30519"
-msgid "Use libtorrent pause/resume trick for added torrents"
-msgstr "Usar truco libtorrent pausar/reanudar para torrents agregados"
-
-msgctxt "#30520"
-msgid "Add item to start menu"
-msgstr "Añadir elemento al menú de inicio"
-
-msgctxt "#30521"
-msgid "Delete item from start menu"
-msgstr "Eliminar elemento del menú de inicio"
-
-msgctxt "#30522"
-msgid "Minimum file size"
-msgstr "Tamaño mínimo de archivos"
-
-msgctxt "#30523"
-msgid "Minimum file size for Movies, MB"
-msgstr "Tamaño mín. de archivo para Películas, MB"
-
-msgctxt "#30524"
-msgid "Minimum file size for Shows, per minute, MB"
-msgstr "Tamaño mín. de archivo para Series TV, por minuto, MB"
-
-msgctxt "#30525"
-msgid "Automatically start downloading next episode"
-msgstr "Comenzar a descargar automáticamente siguiente episodio"
-
-msgctxt "#30526"
-msgid "Use english title as 'original' for Anime search"
-msgstr "Usar título en inglés como 'original' para búsquedas de Anime"
-
-msgctxt "#30527"
-msgid "Donate"
-msgstr "Donar"
-
-msgctxt "#30528"
-msgid "Automatically load first found subtitles"
-msgstr "Cargar automáticamente el primer subtítulo encontrado"
-
-msgctxt "#30529"
-msgid "Number of subtitles to load automatically"
-msgstr "Número de subtítulos a cargar automáticamente"
-
-msgctxt "#30530"
-msgid "Delete autoloaded subtitles on player stop"
-msgstr "Eliminar subtítulos cargados automáticamente al detener reproducción"
-
-msgctxt "#30531"
-msgid "Download all files from torrent"
-msgstr "Descargar todos los archivos torrents"
-
-msgctxt "#30532"
-msgid "Stop Downloading all files"
-msgstr "Detener todos los archivos en descarga"
-
-msgctxt "#30533"
-msgid "Store Resume position for downloaded files"
-msgstr "Almacenar posición de reanudación para archivos descargados"
-
-msgctxt "#30534"
-msgid "Ask to use stored Resume position"
-msgstr "Solicitar almacenar posición de reanudación"
-
-msgctxt "#30535"
-msgid "Continue playback from [COLOR gold][B]%s[/B][/COLOR]?"
-msgstr "¿Desea continuar la reproducción desde [COLOR gold][B]%s[/B][/COLOR]?"
-
-msgctxt "#30536"
-msgid "Skip IPv6 addresses resolving"
-msgstr "Omitir resolución de direcciones IPv6"
-
-msgctxt "#30537"
-msgid "Torrents history"
-msgstr "Historial torrents"
-
-msgctxt "#30538"
-msgid "Use torrents history?"
-msgstr "Usar historial torrents"
-
-msgctxt "#30539"
-msgid "Store N torrents in history"
-msgstr "Número de torrents en historial"
 
 #~ msgctxt "#30001"
 #~ msgid "Download path (not FAT32)"
