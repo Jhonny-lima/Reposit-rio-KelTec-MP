@@ -143,7 +143,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum-KTMP-MOBILE" version="0.1.35" provider-name="KelTec-MP">
+<addon id="plugin.video.elementum" name="Elementum-KTMP-MOBILE" version="0.1.20" provider-name="KelTec-MP">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="xbmc.python" version="2.24.0" />
