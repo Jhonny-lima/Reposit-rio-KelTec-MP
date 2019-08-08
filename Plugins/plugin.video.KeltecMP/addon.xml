@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.KeltecMP"
-       name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]"
-       version="4.0"
+       name="[B][I][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]MP[/COLOR][/I][/B]"
+       version="4.1"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -16,12 +16,13 @@
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler"/>"2.5.1"/>
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
 		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
@@ -29,7 +30,10 @@
 	</extension>
   <extension point="xbmc.addon.metadata">
 	<summary>TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTecMP IPTV</summary>
-	<description>O criador desse add-on de forma alguma hospeda qualquer conteúdo, apenas reorganizamos; OBS: Conteúdos de fácil acesso, de busca livre na internet; Atualização v3.9:Adionado Repostório ao Add-on de Video,melhoria na Segurança!KelTec Media Play - O Futuro é Agora!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+	<description>[COLOR gold][B]KelTec-MP[COLOR white] - [/COLOR][/B][/COLOR][COLOR crimson] - [B]O criador desse add-on de forma alguma hospeda qualquer conteúdo, apenas reorganizamos; OBS: Conteúdos de fácil acesso, de busca livre na internet; Atualização v4.1:Adcionado Repostório ao Add-on de Video,melhoria na Segurança! KelTec Media Play - O Futuro é Agora![/COLOR][/B]</description>
+        <disclaimer lang="en">[COLOR darkgrey][B] KelTec-MP[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-MP.TV [/B][/COLOR]Os creditos para a pagina: http://www.megatorrentshd.com[/COLOR]</disclaimer>
+        <website>http://keltecmp.ga/</website>
+        <forum>http://keltecmp-iptv.directorioforuns.com/forum</forum>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
+        <platform>all</platform>
+    </extension></addon>

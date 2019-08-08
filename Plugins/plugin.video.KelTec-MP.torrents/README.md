@@ -9,9 +9,7 @@ Link encurtado para download: http://bit.ly/Repositorio-KeltecMP-Oficial
 
 Para sugestoes e report de bugs nossa pagina no FB: https://www.facebook.com/groups/KELTEC.MP/
 
-Créditos base PY Atto.TV!
-
-
+Créditos base REPO JOLINK!(TORRENT PLAY)
 
 Add-on Modificado, Funcional somente para Android.
-Plugin: Configurado como Player Principal Elementum.
+Plugin: Configurado com Player Principal Elementum.
