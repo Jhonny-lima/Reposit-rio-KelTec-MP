@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.KeltecMP"
        name="[B][I][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]MP[/COLOR][/I][/B]"
-       version="4.1"
+       version="4.2"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
