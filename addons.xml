@@ -90,7 +90,7 @@
 </addon>
 
 <addon id="plugin.video.KeltecMP"
-       name="[B][I][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]MP[/COLOR][/I][/B]"
+       name="[B][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]MP[/COLOR][/B]"
        version="4.4"
        provider-name="Team KelTec Media'Play">
   <requires>
