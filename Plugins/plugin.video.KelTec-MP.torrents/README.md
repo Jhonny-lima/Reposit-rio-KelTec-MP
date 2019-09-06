@@ -1,5 +1,5 @@
 # KeltecMP IPTV download:
-# https://keltecmp.ga
+# https://keltec-mediaplay.ga/
 
 Addon Editado pelo Team KeltecMP.
 
@@ -7,7 +7,7 @@ Nao somos responsaveis por colocar o conteudo online, apenas indexamos.
 
 Link encurtado para download: http://bit.ly/Repositorio-KeltecMP-Oficial
 
-Para sugestoes e report de bugs nossa pagina no FB: https://www.facebook.com/groups/KELTEC.MP/
+Para sugestoes e report de bugs nossa pagina no FB: https://www.facebook.com/groups/KelTec.Media.Play/
 
 Créditos base REPO JOLINK!(TORRENT PLAY)
 
