@@ -43,3 +43,5 @@
 18.06.26 - Busca
 18.07.02 - Fix redecanais
 18.07.06 - Teste
+
+19.09.11 - Correção Player MMFilmes
