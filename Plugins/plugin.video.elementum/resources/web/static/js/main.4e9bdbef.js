@@ -11530,6 +11530,40 @@
                         errorMessage: "Nothing to stream...",
                         showDimmer: !0
                     })
+                }, r.handleAddTorrentAllFiles = function(e) {
+                    var formData  = new FormData();
+                    formData.append("uri", r.state.addTorrent);
+                    formData.append("file", r.state.addFile);
+                    formData.append("all", 1);
+
+                    return e.preventDefault(), r.setState({
+                        showAddTorrent: !1
+                    }), r.state.addTorrent || r.state.addFile ? void fetch(y + "/torrents/add", {
+                        method: 'POST',
+                        body: formData
+                    }).then(function(e) {
+                        200 !== e.status && e.text().then(function(e) {
+                            this.setState({
+                                errorMessage: e,
+                                showDimmer: !0
+                            })
+                        }.bind(this)), this.setState({
+                            addTorrent: null,
+                            addFile: null
+                        })
+                    }.bind(r), function(e) {
+                        this.setState({
+                            errorMessage: e.message,
+                            showDimmer: !0,
+                            addTorrent: null,
+                            addFile: null
+                        })
+                    }.bind(r)) : void r.setState({
+                        addTorrent: null,
+                        addFile: null,
+                        errorMessage: "Nothing to add...",
+                        showDimmer: !0
+                    })
                 }, r.handleAddTorrent = function(e) {
                     var formData  = new FormData();
                     formData.append("uri", r.state.addTorrent);
@@ -12107,6 +12141,12 @@
                         name: "remove"
                     }), " Cancel"), s.default.createElement(m.Button, {
                         color: "yellow",
+                        onClick: this.handleAddTorrentAllFiles,
+                        inverted: !0
+                    }, s.default.createElement(m.Icon, {
+                        name: "download"
+                    }), " Add (all files)"), s.default.createElement(m.Button, {
+                        color: "blue",
                         onClick: this.handleAddTorrent,
                         inverted: !0
                     }, s.default.createElement(m.Icon, {
