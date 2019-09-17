@@ -490,8 +490,8 @@ msgid "Scraping trackers..."
 msgstr "Запрашиваем трекеры..."
 
 msgctxt "#30141"
-msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate"
-msgstr "Пожалуйста, поддержите разработку Elementum посещением[CR]https://elementum.surge.sh/donate"
+msgid "Please support Elementum development by visiting https://quasar.surge.sh/donate"
+msgstr "Пожалуйста, поддержите разработку Elementum посещением https://quasar.surge.sh/donate"
 
 msgctxt "#30142"
 msgid "Default view for menus in Movies"
@@ -1699,8 +1699,8 @@ msgid "Use Fanart.tv for posters/images"
 msgstr "Использовать fanart.tv для постеров/изображений"
 
 msgctxt "#30492"
-msgid "Use Proxy for downloading .torrent files"
-msgstr "Использовать прокси для скачивания .torrent файлов"
+msgid "Use Proxy for downloading torrent files"
+msgstr "Использовать прокси для скачивания торрент файлов"
 
 msgctxt "#30493"
 msgid "Use Proxy for trackers"
@@ -1708,7 +1708,7 @@ msgstr "Использовать прокси для трекеров"
 
 msgctxt "#30494"
 msgid "Use Proxy for torrent downloading"
-msgstr "Использовать прокси для скачивания торрентов"
+msgstr "Использовать прокси для скачивания торрента"
 
 msgctxt "#30495"
 msgid "Use internal DNS resolver"
@@ -1753,227 +1753,3 @@ msgstr "Находится в файле USERDATA/plugin.video.elementum/libtorr
 msgctxt "#30505"
 msgid "Add episode number to the title"
 msgstr "Добавлять номер эпизода в название"
-
-msgctxt "#30506"
-msgid "Enable libtorrent logging"
-msgstr "Включить логи libtorrent"
-
-msgctxt "#30507"
-msgid "Magnet trackers"
-msgstr "Magnet трекеры"
-
-msgctxt "#30508"
-msgid "Leave as is"
-msgstr "Оставить как есть"
-
-msgctxt "#30509"
-msgid "Remove all"
-msgstr "Удалить все"
-
-msgctxt "#30510"
-msgid "Add retrackers"
-msgstr "Добавить ретрекеры"
-
-msgctxt "#30511"
-msgid "Libtorrent settings profile"
-msgstr "Профиль настроек Libtorrent"
-
-msgctxt "#30512"
-msgid "Default"
-msgstr "По-умолчанию"
-
-msgctxt "#30513"
-msgid "Minimal memory"
-msgstr "Минимум памяти"
-
-msgctxt "#30514"
-msgid "High speed"
-msgstr "Высокая скорость"
-
-msgctxt "#30515"
-msgid "Load torrents from torrents folder paused"
-msgstr "Добавлять торренты из папки torrents остановленными"
-
-msgctxt "#30516"
-msgid "... resume N seconds earlier"
-msgstr "... продолжить на N секунд раньше"
-
-msgctxt "#30517"
-msgid "In Kodi library"
-msgstr "В библиотеке Kodi"
-
-msgctxt "#30518"
-msgid "Use libtorrent deadlines"
-msgstr "Использоваться deadlines в libtorrent"
-
-msgctxt "#30519"
-msgid "Use libtorrent pause/resume trick for added torrents"
-msgstr "Использовать трюк с pause/resume в libtorrent[CR]для новых торрентов"
-
-msgctxt "#30520"
-msgid "Add item to start menu"
-msgstr "Добавить в стартовое меню"
-
-msgctxt "#30521"
-msgid "Delete item from start menu"
-msgstr "Удалить из стартового меню"
-
-msgctxt "#30522"
-msgid "Minimum file size"
-msgstr "Минимальный размер файла"
-
-msgctxt "#30523"
-msgid "Minimum file size for Movies, MB"
-msgstr "Минимальный размер Фильма, МБ"
-
-msgctxt "#30524"
-msgid "Minimum file size for Shows, per minute, MB"
-msgstr "Минимальный размер Сериала, за минуту, МБ"
-
-msgctxt "#30525"
-msgid "Automatically start downloading next episode"
-msgstr "Автоматически начинать загрузку следующей серии"
-
-msgctxt "#30526"
-msgid "Use english title as 'original' for Anime search"
-msgstr "Использовать английское название как 'original' для поиска Аниме"
-
-msgctxt "#30527"
-msgid "Donate"
-msgstr "Пожертвования"
-
-msgctxt "#30528"
-msgid "Automatically load first found subtitles"
-msgstr "Автоматически загружать найденные субтитры"
-
-msgctxt "#30529"
-msgid "Number of subtitles to load automatically"
-msgstr "Количество субтитров для загрузки автоматически"
-
-msgctxt "#30530"
-msgid "Delete autoloaded subtitles on player stop"
-msgstr "Удалять автоматически загруженные субтитры"
-
-msgctxt "#30531"
-msgid "Download all files from torrent"
-msgstr "Скачать все файлы торрента"
-
-msgctxt "#30532"
-msgid "Stop Downloading all files"
-msgstr "Остановить загрузку всех файлов"
-
-msgctxt "#30533"
-msgid "Store Resume position for downloaded files"
-msgstr "Хранить позицию воспроизведения для скачиваевых файлов"
-
-msgctxt "#30534"
-msgid "Ask to use stored Resume position"
-msgstr "Спрашивать использовать сохраненную позицию"
-
-msgctxt "#30535"
-msgid "Continue playback from [COLOR gold][B]%s[/B][/COLOR]?"
-msgstr "Продолжить воспроизведение от [COLOR gold][B]%s[/B][/COLOR]?"
-
-msgctxt "#30536"
-msgid "Skip IPv6 addresses resolving"
-msgstr "Пропускать IPv6 адреса"
-
-msgctxt "#30537"
-msgid "Torrents history"
-msgstr "История торрентов"
-
-msgctxt "#30538"
-msgid "Use torrents history?"
-msgstr "Использовать историю торрентов?"
-
-msgctxt "#30539"
-msgid "Store N torrents in history"
-msgstr "Хранить N торрентов в истории"
-
-msgctxt "#30540"
-msgid "Subtitles"
-msgstr "Субтитры"
-
-msgctxt "#30541"
-msgid "Automatic Subtitles Search"
-msgstr "Автоматический поиск субтитров"
-
-msgctxt "#30542"
-msgid "Disabled if subtitles available in player"
-msgstr "Отключить если субтитры доступны в плеере"
-
-msgctxt "#30543"
-msgid "Subtitles included in torrent"
-msgstr "Субтитры в торрент файле"
-
-msgctxt "#30544"
-msgid "Automatic Scrape"
-msgstr "Автоматический поиск"
-
-msgctxt "#30545"
-msgid "Automatic scraping allows to scrape connected providers[CR]to find new movies, if there are results,"
-msgstr "Автоматический поиск позволяет искать среди подключенных[CR]провайдеров, для поиска новых фильмов,"
-
-msgctxt "#30546"
-msgid "Strategy"
-msgstr "Стратегия поиска"
-
-msgctxt "#30547"
-msgid "Find in each provider"
-msgstr "Поиск в каждом провайдере"
-
-msgctxt "#30548"
-msgid "Find in overall"
-msgstr "Поиск среди всех"
-
-msgctxt "#30549"
-msgid "Number of results to find"
-msgstr "Искать N результатов"
-
-msgctxt "#30550"
-msgid "What to search"
-msgstr "Что искать"
-
-msgctxt "#30551"
-msgid "How to search"
-msgstr "Как искать"
-
-msgctxt "#30552"
-msgid "Search each N hours"
-msgstr "Искать каждые N часов"
-
-msgctxt "#30553"
-msgid "Find 4K resolution"
-msgstr "Искать разрешение 4K"
-
-msgctxt "#30554"
-msgid "Find 1080p resolution"
-msgstr "Искать разрешение 1080p"
-
-msgctxt "#30555"
-msgid "and movie passes checks for number of results[CR]movie can be added to the library."
-msgstr "если есть результаты и проходит проверка[CR]фильм можно добавить в библиотеку."
-
-msgctxt "#30556"
-msgid "Add to the library"
-msgstr "Добавить в библиотеку"
-
-msgctxt "#30557"
-msgid "Number of popular movies to search"
-msgstr "Количество популярных фильмов"
-
-msgctxt "#30558"
-msgid "Latest available movies"
-msgstr "Последние доступные фильмы"
-
-msgctxt "#30559"
-msgid "Skip searching for installed providers"
-msgstr "Не спрашивать установку поисковых провайдеров"
-
-msgctxt "#30560"
-msgid "Files: %s"
-msgstr "Файлы: %s"
-
-msgctxt "#30561"
-msgid "Interval between requests, seconds"
-msgstr "Интервал между запросами, секунд"

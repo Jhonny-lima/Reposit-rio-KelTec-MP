@@ -30,8 +30,6 @@
 
         <!-- Download -->
         <setting label="30325" type="lsep" />
-        <setting id="use_torrent_history" type="bool" label="30538" default="true" />
-        <setting id="torrent_history_size" label="30539" type="slider" option="int" range="0,1,200" default="50" />
         <setting id="keep_downloading" type="enum" label="30028" lvalues="30319|30320|30321" default="1" />
         <setting id="keep_files_playing" type="enum" label="30312" lvalues="30309|30310|30311" default="1" />
         <setting id="keep_files_finished" type="enum" label="30313" lvalues="30309|30310|30311" default="1" />
@@ -43,15 +41,14 @@
         <setting id="choose_stream_auto" type="bool" label="30023" default="false" />
         <setting id="force_link_type" type="bool" label="30324" default="false" />
         <setting id="smart_episode_match" type="bool" label="30333" default="true" />
-        <setting id="smart_episode_start" type="bool" label="30525" default="true" />
+        <setting id="min_candidate_size" label="30501" type="slider" option="int" range="0,10,1000" default="100" />
     </category>
     <category label="30326">
         <!-- General -->
         <setting label="30000" type="lsep" />
         <setting id="play_resume" label="30372" type="bool" default="true" />
-        <setting id="store_resume" label="30533" type="bool" default="true" />
-        <setting id="store_resume_action" type="enum" label="30534" lvalues="30414|30310|30413" default="1" />
-        <setting id="play_resume_back" label="30516" type="slider" option="int" range="0,1,120" default="0" />
+        <setting id="enable_overlay_status" type="bool" label="30022" default="true" />
+          <setting id="overlay_status_offset" type="number" label="30030" default="150" subsetting="true" visible="eq(-1,true)" />
         <setting id="add_specials" type="bool" label="30055" default="false" />
         <setting id="unaired_seasons" type="bool" label="30284" default="false" />
         <setting id="unaired_episodes" type="bool" label="30285" default="false" />
@@ -69,32 +66,13 @@
         <setting id="library_update_frequency" label="30060" type="slider" option="int" range="0,1,24" default="6" />
         <setting id="library_auto_scan" type="bool" label="30089" default="true" />
     </category>
-    <category label="30544">
-        <setting type="text" label="30545" enable="false" />
-        <setting type="text" label="30555" enable="false" />
-        <setting id="autoscrape_is_enabled" label="30010" type="bool" default="false" />
-        <setting id="autoscrape_library_enabled" label="30556" type="bool" default="false" />
-
-        <!-- What to search -->
-        <setting label="30550" type="lsep" />
-        <setting id="autoscrape_strategy" type="enum" label="30546" lvalues="30547|30548|30553|30554" default="0" />
-        <setting id="autoscrape_strategy_expect" label="30549" type="slider" option="int" range="1,1,100" default="3" />
-
-        <!-- When to search -->
-        <setting label="30551" type="lsep" />
-        <setting id="autoscrape_limit_movies" label="30557" type="slider" option="int" range="1,1,200" default="50" />
-        <setting id="autoscrape_per_hours" label="30552" type="slider" option="int" range="1,1,240" default="12" />
-        <setting id="autoscrape_interval" label="30561" type="slider" option="int" range="1,1,600" default="30" />
-    </category>
     <category label="30033">
         <!-- Appearance -->
         <setting label="30033" type="lsep" />
-        <setting id="results_per_page" label="30021" type="slider" option="int" range="3,1,50" default="9" />
+        <setting id="results_per_page" label="30021" type="slider" option="int" range="3,1,30" default="9" />
         <setting id="default_fanart" label="30092" type="bool" default="true" />
         <setting id="use_fanart_tv" label="30491" type="bool" default="false" />
         <setting id="do_not_disturb" label="30093" type="bool" default="false" />
-        <setting id="enable_overlay_status" type="bool" label="30022" default="true" />
-          <setting id="overlay_status_offset" type="number" label="30030" default="150" subsetting="true" visible="eq(-1,true)" />
         <setting id="disable_bg_progress" label="30094" type="bool" default="false" />
         <setting id="disable_bg_progress_playback" label="30386" type="bool" default="true" />
         <setting id="add_episode_numbers" label="30505" type="bool" default="false" />
@@ -111,13 +89,12 @@
         <!-- BitTorrent -->
         <setting label="BitTorrent" type="lsep" />
         <setting id="buffer_size" label="30003" type="number" default="20" />
-        <!-- <setting id="auto_adjust_buffer_size" label="30500" type="bool" default="true" /> -->
+        <setting id="auto_adjust_buffer_size" label="30500" type="bool" default="true" />
         <setting id="auto_kodi_buffer_size" label="30502" type="bool" default="true" />
         <setting id="buffer_timeout" label="30088" type="slider" option="int" range="10,5,600" default="60" />
         <setting id="max_upload_rate" label="30004" type="number" default="" />
         <setting id="max_download_rate" label="30005" type="number" default="" />
         <setting id="autoload_torrents" type="bool" label="30421" default="true" />
-        <setting id="autoload_torrents_paused" type="bool" label="30515" default="true" />
         <setting id="limit_after_buffering" label="30025" type="bool" default="false" />
         <setting id="connections_limit" label="30027" type="number" default="" />
 
@@ -145,21 +122,11 @@
         <setting id="spoof_user_agent" label="30074" type="enum" lvalues="30065|30075|30076|30077|30078|30079|30080|30081|30082|30083|30084|30085" />
         <setting id="use_libtorrent_config" label="30503" type="bool" default="true" />
         <setting type="text" label="30504" enable="false" />
-        <setting id="magnet_trackers" label="30507" type="enum" lvalues="30508|30509|30510" default="0" />
-        <setting id="use_libtorrent_logging" label="30506" type="bool" default="false" />
-        <setting id="libtorrent_profile" label="30511" type="enum" lvalues="30512|30513|30514" default="0" />
-        <!-- <setting id="use_libtorrent_deadline" label="30518" type="bool" default="true" /> -->
-        <setting id="use_libtorrent_pauseresume" label="30519" type="bool" default="false" />
     </category>
     <category label="30239">
         <!-- Searching -->
         <setting label="30478" type="lsep" />
         <setting id="use_original_title" type="bool" label="30038" default="false" />
-        <setting id="use_anime_en_title" type="bool" label="30526" default="true" />
-
-        <setting label="30522" type="lsep" />
-        <setting id="min_candidate_size" label="30523" type="slider" option="int" range="0,10,1000" default="100" />
-        <setting id="min_candidate_show_size" label="30524" type="slider" option="int" range="0,1,1000" default="4" />
 
         <!-- Sorting -->
         <setting label="30041" type="lsep" />
@@ -172,12 +139,11 @@
         <!-- Caching -->
         <setting label="30387" type="lsep" />
         <setting id="use_cache_selection" label="30388" type="bool" default="true" />
-        <setting id="use_cache_search" label="30389" type="bool" default="false" />
+        <setting id="use_cache_search" label="30389" type="bool" default="true" />
         <setting id="cache_search_duration" label="30390" type="number" default="180" visible="eq(-1,true)" />
 
         <!-- Providers -->
         <setting label="30239" type="lsep" />        
-        <setting id="skip_burst_search" label="30559" type="bool" default="false" />
         <setting id="provider_disable_failing" label="30031" type="bool" default="false" />
         <setting id="provider_allowed_failures" label="30032" type="slider" option="int" range="0,1,10" default="3" />
         
@@ -191,7 +157,6 @@
     <setting label="30490" type="lsep" />
         <setting id="internal_dns_enabled" label="30495" type="bool" default="true" />
         <setting id="internal_dns_help" label="30496" type="text" enable="false" />
-        <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" />
 
         <setting id="internal_proxy_enabled" label="30487" type="bool" default="true" />
         <setting id="internal_proxy_logging" label="30489" type="bool" default="false" />
@@ -200,7 +165,7 @@
 
         <setting label="30008" type="lsep" />
         <setting id="proxy_enabled" label="30010" type="bool" default="false" />
-          <setting id="proxy_type" label="30067" type="enum" default="1" subsetting="true" lvalues="30068|30069|30071|30073" visible="eq(-1,true)" />
+          <setting id="proxy_type" label="30067" type="enum" default="1" subsetting="true" lvalues="30068|30069|30071|30385" visible="eq(-1,true)" />
           <setting id="proxy_host" label="30011" type="text" default="" subsetting="true" visible="eq(-2,true)" />
           <setting id="proxy_port" label="30012" type="number" default="1080" subsetting="true" visible="eq(-3,true)" />
           <setting id="proxy_login" label="30013" type="text" default="" subsetting="true" visible="eq(-4,true)" />
@@ -209,20 +174,12 @@
           <setting id="use_proxy_tracker" label="30493" type="bool" default="true" subsetting="true" visible="eq(-7,true)" />
           <setting id="use_proxy_download" label="30494" type="bool" default="true" subsetting="true" visible="eq(-8,true)" />
     </category>
-    <category label="30540">
+    <category label="OpenSubtitles">
         <setting label="OpenSubtitles" type="lsep" />
         <setting id="osdb_user" label="30057" type="text" default="" />
         <setting id="osdb_pass" label="30014" type="text" option="hidden" default="" />
         <setting id="osdb_auto_language" label="30383" type="bool" default="true" />
         <setting id="osdb_language" label="30384" type="text" default="" enable="eq(-1,false)" />
-        <setting label="30541" type="lsep" />
-        <setting id="osdb_auto_load" label="30528" type="bool" default="false" />
-        <setting id="osdb_auto_load_count" label="30529" type="slider" option="int" range="1,1,20" default="1" />
-        <setting id="osdb_auto_load_delete" label="30530" type="bool" default="true" />
-        <setting id="osdb_auto_load_skipexists" label="30542" type="bool" default="true" />
-        <setting label="30543" type="lsep" />
-        <setting id="osdb_included_enabled" label="30010" type="bool" default="true" />
-        <setting id="osdb_included_skipexists" label="30542" type="bool" default="true" />
     </category>
     <category label="30056">
         <!-- Trakt -->

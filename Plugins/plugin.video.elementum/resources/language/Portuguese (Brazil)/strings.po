@@ -489,8 +489,8 @@ msgid "Scraping trackers..."
 msgstr "Verificando trackers..."
 
 msgctxt "#30141"
-msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate"
-msgstr "Por favor apoie o desenvolvimento do Elementum visitando[CR]https://elementum.surge.sh/donate"
+msgid "Please support Elementum development by visiting https://quasar.surge.sh/donate"
+msgstr "Por favor apoie o desenvolvimento do Elementum visitando https://quasar.surge.sh/donate"
 
 msgctxt "#30142"
 msgid "Default view for menus in Movies"
@@ -1698,7 +1698,7 @@ msgid "Use Fanart.tv for posters/images"
 msgstr ""
 
 msgctxt "#30492"
-msgid "Use Proxy for downloading .torrent files"
+msgid "Use Proxy for downloading torrent files"
 msgstr ""
 
 msgctxt "#30493"
@@ -1751,142 +1751,6 @@ msgstr ""
 
 msgctxt "#30505"
 msgid "Add episode number to the title"
-msgstr ""
-
-msgctxt "#30506"
-msgid "Enable libtorrent logging"
-msgstr ""
-
-msgctxt "#30507"
-msgid "Magnet trackers"
-msgstr ""
-
-msgctxt "#30508"
-msgid "Leave as is"
-msgstr ""
-
-msgctxt "#30509"
-msgid "Remove all"
-msgstr ""
-
-msgctxt "#30510"
-msgid "Add retrackers"
-msgstr ""
-
-msgctxt "#30511"
-msgid "Libtorrent settings profile"
-msgstr ""
-
-msgctxt "#30512"
-msgid "Default"
-msgstr ""
-
-msgctxt "#30513"
-msgid "Minimal memory"
-msgstr ""
-
-msgctxt "#30514"
-msgid "High speed"
-msgstr ""
-
-msgctxt "#30515"
-msgid "Load torrents from torrents folder paused"
-msgstr ""
-
-msgctxt "#30516"
-msgid "... resume N seconds earlier"
-msgstr ""
-
-msgctxt "#30517"
-msgid "In Kodi library"
-msgstr ""
-
-msgctxt "#30518"
-msgid "Use libtorrent deadlines"
-msgstr ""
-
-msgctxt "#30519"
-msgid "Use libtorrent pause/resume trick for added torrents"
-msgstr ""
-
-msgctxt "#30520"
-msgid "Add item to start menu"
-msgstr ""
-
-msgctxt "#30521"
-msgid "Delete item from start menu"
-msgstr ""
-
-msgctxt "#30522"
-msgid "Minimum file size"
-msgstr ""
-
-msgctxt "#30523"
-msgid "Minimum file size for Movies, MB"
-msgstr ""
-
-msgctxt "#30524"
-msgid "Minimum file size for Shows, per minute, MB"
-msgstr ""
-
-msgctxt "#30525"
-msgid "Automatically start downloading next episode"
-msgstr ""
-
-msgctxt "#30526"
-msgid "Use english title as 'original' for Anime search"
-msgstr ""
-
-msgctxt "#30527"
-msgid "Donate"
-msgstr ""
-
-msgctxt "#30528"
-msgid "Automatically load first found subtitles"
-msgstr ""
-
-msgctxt "#30529"
-msgid "Number of subtitles to load automatically"
-msgstr ""
-
-msgctxt "#30530"
-msgid "Delete autoloaded subtitles on player stop"
-msgstr ""
-
-msgctxt "#30531"
-msgid "Download all files from torrent"
-msgstr ""
-
-msgctxt "#30532"
-msgid "Stop Downloading all files"
-msgstr ""
-
-msgctxt "#30533"
-msgid "Store Resume position for downloaded files"
-msgstr ""
-
-msgctxt "#30534"
-msgid "Ask to use stored Resume position"
-msgstr ""
-
-msgctxt "#30535"
-msgid "Continue playback from [COLOR gold][B]%s[/B][/COLOR]?"
-msgstr ""
-
-msgctxt "#30536"
-msgid "Skip IPv6 addresses resolving"
-msgstr ""
-
-msgctxt "#30537"
-msgid "Torrents history"
-msgstr ""
-
-msgctxt "#30538"
-msgid "Use torrents history?"
-msgstr ""
-
-msgctxt "#30539"
-msgid "Store N torrents in history"
 msgstr ""
 
 #~ msgctxt "#30001"
