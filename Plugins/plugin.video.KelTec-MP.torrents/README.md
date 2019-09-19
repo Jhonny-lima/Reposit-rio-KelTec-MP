@@ -9,7 +9,7 @@ Link encurtado para download: http://bit.ly/Repositorio-KeltecMP-Oficial
 
 Para sugestoes e report de bugs nossa pagina no FB: https://www.facebook.com/groups/KelTec.Media.Play/
 
-Créditos base REPO JOLINK!(TORRENT PLAY)
+Créditos base REPO LOJINK!(TORRENT PLAY)
 
 Add-on Modificado, Funcional somente para Android.
 Plugin: Configurado com Player Principal Elementum.
