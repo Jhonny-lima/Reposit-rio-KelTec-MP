@@ -1,0 +1,106 @@
+# XBMC Media Center language file
+# Addon Name: PROTECT KODI
+# Addon id: script.service.caretaker
+# Addon version: 0.0.5
+# Addon Provider: Birger Jesch
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-08-17 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#30010"
+msgid "PROTECT KODI"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Repositório ou Add-on não autorizado virus do Kodi BR"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Você instalou Repositórios ou Add-ons maliciosos"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Você tem um ou mais repositórios não autorizados instalados. Esses repositórios podem conter complementos prejudiciais. É altamente recomendável limpar sua lista de complementos."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Nenhum repositório não autorizado encontrado"
+msgstr ""
+
+msgctxt "#30020"
+msgid "ações"
+msgstr ""
+
+msgctxt "#30021"
+msgid "atualize a lista negra agora"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Lista negra atualizada com sucesso"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Falha na atualização da lista negra"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Verificação de atualização da lista negra"
+msgstr ""
+
+msgctxt "#30031"
+msgid "diariamente"
+msgstr ""
+
+msgctxt "#30032"
+msgid "semanal"
+msgstr ""
+
+msgctxt "#30033"
+msgid "mensal"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Verifique se há complementos instalados com o mesmo carimbo de hora"
+msgstr ""
+
+msgctxt "#30036"
+msgid "mostrar notificação se detectar positivo"
+msgstr ""
+
+msgctxt "#30037"
+msgid "variação máxima de data e hora da instalação"
+msgstr ""
+
+msgctxt "#30038"
+msgid "1 min"
+msgstr ""
+
+msgctxt "#30039"
+msgid "2 min"
+msgstr ""
+
+msgctxt "#30040"
+msgid "3 min"
+msgstr ""
+
+msgctxt "#30041"
+msgid "fora"
+msgstr ""
+
+msgctxt "#30042"
+msgid "apenas no início"
+msgstr ""
+
+msgctxt "#30043"
+msgid "a cada 30 minutos"
+msgstr ""

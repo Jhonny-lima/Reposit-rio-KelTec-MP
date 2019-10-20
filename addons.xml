@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repo.vikings" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Oficial[/B][/COLOR]" version="1.13" provider-name="by @Pio">">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="5.2.1" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+	
+  </requires>
+  <extension point="xbmc.addon.repository" name="Vikings Repository">
+		<info compressed="false">http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml</info>
+		<checksum>http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/vikingsbuild/repo.vikings/master/addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Vikings</summary>
+		<description>Repositorio oficial Vikings Build - Proibido reproducao sem previa autorizacao</description>
+		<news>
+	Estamos voltando, aguardem...!!!
+	Os addons que será instalado não hospeda nem possui nenhum conteúdo. O autor não é responsável pelo uso e pelo conteúdo encontrado usando este addon
+</news>
+		
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.7" provider-name="Team Ezequiel KelTec">
 	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
 		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
@@ -104,7 +144,7 @@
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]MP[/COLOR][/B]"
-       version="4.5.1"
+       version="4.5.2"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -125,21 +165,21 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+  <extension point="xbmc.addon.repository" name="[B]KelTecMP Repo[/B]">
 		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
 	</extension>
   <extension point="xbmc.addon.metadata">
-	<summary>TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTecMP IPTV</summary>
+	<summary>TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play</summary>
 	<description>[COLOR gold][B]KelTec-MP[COLOR white] - [/COLOR][/B][/COLOR][COLOR crimson] - [B]O criador desse add-on de forma alguma hospeda qualquer conteúdo, apenas reorganizamos; OBS: Conteúdos de fácil acesso, de busca livre na internet; Atualização v4.1:Adcionado Repostório ao Add-on de Video,melhoria na Segurança! KelTec Media Play - O Futuro é Agora![/COLOR][/B]</description>
-        <disclaimer lang="en">[COLOR darkgrey][B] KelTec-MP[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-MP.TV [/B][/COLOR]Os creditos para a pagina: http://www.megatorrentshd.com[/COLOR]</disclaimer>
-        <website>https://keltec-mediaplay.ga/</website>
-        <forum>http://keltecmp-iptv.directorioforuns.com/forum</forum>
+        <disclaimer lang="en">[COLOR darkgrey][B] KelTec-MP[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-MP [/B]</disclaimer>
+        <website>https://keltecmp.net/</website>
+        <forum></forum>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2.</license>
         <platform>all</platform>
-    </extension></addon>
+    </extension>
+</addon>
 
 <addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KeltecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="19.09.11" provider-name="Team KeltecMP">
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -152,7 +192,7 @@
 	</extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">MMFilmes</summary>
-    <description lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KELTEC.MP/[/COLOR]</description>
+    <description lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KelTec.Media.Play/[/COLOR]</description>
 	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
     <platform>all</platform>
 	<news> CORRIGIDO BUSCA, TROCA DE IMAGENS, MELHORIAS NA SEGURANÇA E ATUALIZALÇÕES SOMENTE VIA REPO.
