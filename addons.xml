@@ -53,11 +53,11 @@
 	</extension>
 </addon>
 
-<addon id="ElementumKTMP.repository" name="[B]Elementum Para Android[/B]" version="1.0" provider-name="Team KelTecMP">
+<addon id="ElementumKTMP.repository" name="[B]Elementum Para Android[/B]" version="1.3" provider-name="Team KelTecMP">
 	<extension point="xbmc.addon.repository" name="ElementumKTMP">
-		<info compressed="false">https://web-keltecmp.ml/repo/addons.xml</info>
-		<checksum>https://web-keltecmp.ml/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://web-keltecmp.ml/repo/Plugins</datadir>
+		<info compressed="false">https://keltecplay.site/repo/addons.xml</info>
+		<checksum>https://keltecplay.site/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://keltecplay.site/repo/Plugins/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>ElementumKTMP</summary>
@@ -94,7 +94,7 @@
         <description lang="en">[COLOR gold][B]KelTec-MP[COLOR white] - [/COLOR]TORRENTS![/B][/COLOR][COLOR crimson], oferece Filmes e Series, de qualidade 4K, H265 - 7.1, H264 - 5.1, 3D, 1080P e 720P e WEB-RIP, disponíveis para download via torrent, links totalmente funcionais e constantemente
             atualizados.[/COLOR],</description>
         <disclaimer lang="en">[COLOR darkgrey][B] KelTec-MP[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-MP.TV [/B][/COLOR]Os creditos para a pagina: http://www.megatorrentshd.com[/COLOR]</disclaimer>
-        <website>https://keltec-mediaplay.ga/</website>
+        <website>https://keltecmp.net/</website>
         <forum>http://keltecmp-iptv.directorioforuns.com/forum</forum>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
         <platform>all</platform>
