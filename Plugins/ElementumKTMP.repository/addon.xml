@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>ElementumKTMP</summary>
-		<description>ElementumKTMP - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/KelTec.Media.Play/</description>
+		<description>ElementumKTMP - Proibido reproducao //Grupo Facebook KeltecMP  https://www.facebook.com/groups/KelTec.Media.Play/</description>
 		<platform>all</platform>
 	</extension>
 </addon>

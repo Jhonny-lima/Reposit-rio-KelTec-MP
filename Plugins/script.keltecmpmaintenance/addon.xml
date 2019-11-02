@@ -2,7 +2,7 @@
 <addon id="script.keltecmpmaintenance"
        name="KelTecMP Maintenance"
        version="1.2"
-       provider-name="Team KelTecMP IPTV">
+       provider-name="Team KelTecMP ">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
