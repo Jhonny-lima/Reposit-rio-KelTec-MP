@@ -150,7 +150,7 @@
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR dimgrey]KeTec[/COLOR]-[COLOR crimson]Media-Play[/COLOR][/B]"
-       version="4.6.1"
+       version="4.6.3"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
