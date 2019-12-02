@@ -214,7 +214,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]MMFilmes[/COLOR][/B]" version="19.12.02.OK" provider-name="Team KeltecMP">
+<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]MMFilmes[/COLOR][/B]" version="19.12.02-P" provider-name="Team KeltecMP">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
