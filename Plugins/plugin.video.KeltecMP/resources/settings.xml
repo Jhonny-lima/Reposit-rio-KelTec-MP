@@ -10,7 +10,7 @@
 </category>
 <category label="Configurações Gerais">
 	<setting label="[COLOR white]Configurações Gerais[/COLOR]" type="lsep"/>
-    <setting id="mensagem1" type="bool" label="Exibir Mensagem de Boas Vindas" default="true" />
+    <setting id="mensagem1" type="bool" label="Exibir Mensagem de Boas Vindas" default="false" />
 	<setting id="mensagem2" type="bool" label="Exibir Mensagem de Status" default="true" />
 	<setting id="save_location" type="folder"  label="Selecione um local de download." default=""/>
 	<setting id="dlaudioonly" type="bool" label="Baixar apenas audio" default="false" />
