@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.suporte-keltecmp" name="[B][COLOR dimgrey]Suporte [COLOR crimson]KelTec Media'Play[/COLOR][/B]" version="1.0" provider-name="Team KelTec">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="[B]KelTecMP Repo[/B]">
-		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
-	</extension>
-  <extension point="xbmc.addon.metadata">
-	<summary>Suporte exclusivo do add-on KelTec Media'Play - Repositorio Oficial KelTec Media'Play - TOP VIP</summary>
-	<description>Suporte exclusivo do add-on KelTec Media'Play</description>
-        <disclaimer lang="en"></disclaimer>
-        <website>https://keltecmp.net/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="repo.vikings" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Oficial[/B][/COLOR]" version="1.13" provider-name="by @Pio">">
 	<requires>
@@ -103,7 +83,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="1.7-P" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
+<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="1.8" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
         <import addon="ElementumKTMP.repository" optional="false" />
@@ -214,7 +194,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]MMFilmes[/COLOR][/B]" version="19.12.06-P" provider-name="Team KeltecMP">
+<addon id="plugin.video.KeltecMPIPTV" name="[B][COLOR blue]KelTecMP[/COLOR] [COLOR red]MMFilmes[/COLOR][/B]" version="02.01.20-Q" provider-name="Team KeltecMP">
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
