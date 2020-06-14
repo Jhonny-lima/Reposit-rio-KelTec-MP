@@ -164,7 +164,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="2.0" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
+<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="2.0a" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
         <import addon="ElementumKTMP.repository" optional="false" />
