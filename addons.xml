@@ -232,7 +232,7 @@
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR dimgrey]KelTec[/COLOR]-[COLOR crimson]Media-Play[/COLOR][/B]"
-       version="6.0-H"
+       version="6.1-A"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
