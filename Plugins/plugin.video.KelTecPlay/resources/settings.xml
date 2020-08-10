@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 <category label="Principal">
 	<setting label="[B][COLOR white]Onde baixar:[/COLOR][/B]" type="text" /> 
@@ -13,8 +13,8 @@
 	<setting id="CatGO" label="CatGO" type="text" default="0" visible="false" />
 	<setting id="cEPG" label="cEPG" type="text" default="0" visible="false" />
 	<setting label="" type="sep" />
-	<setting id="actDelFavourites" type="action" label="Limpar todos os Filmes Favoritos" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=38&url=settings)" option="close"/>
-	<setting id="actDelHistorico" type="action" label="Limpar todas as Séries Favoritas" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=39&url=settings)" option="close"/>
+	<setting id="actDelFavourites" type="action" label="Limpar todos os Filmes Favoritos" action="RunPlugin(plugin://plugin.video.KelTecPlay/default.py?mode=38&url=settings)" option="close"/>
+	<setting id="actDelHistorico" type="action" label="Limpar todas as Séries Favoritas" action="RunPlugin(plugin://plugin.video.KelTecPlay/default.py?mode=39&url=settings)" option="close"/>
 
 	<setting id="cPage" label="cPage" type="text" default="0" visible="false" />
 	<setting id="cPageleg" label="cPageleg" type="text" default="0" visible="false" />
@@ -26,7 +26,7 @@
 	<setting id="cPageMMf" label="cPageMMf" type="text" default="0" visible="false" />
 	<setting id="cPageGOf" label="cPageGOf" type="text" default="0" visible="false" />
 	<setting label="" type="sep" />
-	<setting id="actDelHistorico1" type="action" label="Limpar o Histórico" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=40&url=settings)" option="close"/>
+	<setting id="actDelHistorico1" type="action" label="Limpar o Histórico" action="RunPlugin(plugin://plugin.video.KelTecPlay/default.py?mode=40&url=settings)" option="close"/>
 	<setting label="" type="sep" />
 </category>
 
