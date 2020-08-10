@@ -1,7 +1,7 @@
 import urllib, urllib2, os, io, xbmc, xbmcaddon, xbmcgui, json, re, chardet, shutil, time, hashlib, gzip, xbmcvfs
 from StringIO import StringIO
 
-AddonID = 'plugin.video.KeltecMPIPTV'
+AddonID = 'plugin.video.KelTecPlay'
 Addon = xbmcaddon.Addon(AddonID)
 icon = Addon.getAddonInfo('icon')
 AddonName = Addon.getAddonInfo("name")
