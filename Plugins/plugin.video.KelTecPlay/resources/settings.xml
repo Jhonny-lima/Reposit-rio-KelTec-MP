@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+<category label="Principal">
+	<setting label="[B][COLOR white]Onde baixar:[/COLOR][/B]" type="text" /> 
+	<setting label="[COLOR gold]www.keltecmp.net/[/COLOR]" type="text" />
+	<setting label="" type="sep" />
+	<setting label="[B][COLOR white]Página no Facebook:[/COLOR][/B]" type="text" /> 
+	<setting label="[COLOR blue]http://fb.com/groups/KelTec.Media.Play[/COLOR]" type="text" />
+	<setting label="" type="sep" />
+	<setting id="actDelFavourites" type="action" label="Limpar todos os Filmes Favoritos" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=38&url=settings)" option="close"/>
+	<setting id="actDelHistorico" type="action" label="Limpar todas as Séries Favoritas" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=39&url=settings)" option="close"/>
+	<setting label="" type="sep" />
+	<setting id="actDelHistorico1" type="action" label="Limpar o Histórico" action="RunPlugin(plugin://plugin.video.KeltecMPIPTV/default.py?mode=40&url=settings)" option="close"/>
+	<setting label="" type="sep" />
+</category>
+</settings>
